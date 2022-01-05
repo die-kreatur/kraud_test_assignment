@@ -12,6 +12,6 @@ All the dependencies may be found in **requirements.txt**.
 ## Functionality
 - When the script **websocket_client.py** is run, connection with Binance API is established.
 - Retrieved data is parsed by **on_message** function and compared to **config.json** conditions.
-- If the retrieved data is corresponding to **config.json**, conditions new notification will be sent to telegram channel.
-- It any exception occurres, it will be written to **websocket_client.log** file.
+- If the retrieved data is corresponding to **config.json** conditions, new notification will be sent to telegram channel.
+- If any exception occurres, it will be written to **websocket_client.log** file.
 - If connection is dead, a notification will be sent to telegram channel.
